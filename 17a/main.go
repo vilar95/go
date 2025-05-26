@@ -16,9 +16,9 @@ func newAccount() *BankAccount {
 		balance: 0,
 	}
 }
-// O saldo da conta é 0 reais, com o depósito (Dentro da função)
 func (bankAccount BankAccount) deposit(value int) int {
 	bankAccount.balance += value
+	// O saldo da conta é 0 reais, com o depósito (Dentro da função)
 	fmt.Printf("O saldo da conta é: %v reais, com o depósito (Dentro da função)\n", bankAccount.balance)
 	return bankAccount.balance
 }
