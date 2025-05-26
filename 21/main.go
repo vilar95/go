@@ -5,7 +5,7 @@ package main
 // Módulos são coleções de pacotes que podem ser versionados e compartilhados.
 
 import (
-	"github.com/vilar95/go/21/matematica" // Importa o pacote math que contém funções genéricas
+	"GO/matematica" // Importa o pacote matematica que contém funções genéricas
 	"fmt"
 )
 
